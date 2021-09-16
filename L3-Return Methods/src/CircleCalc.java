@@ -28,7 +28,7 @@ public class CircleCalc {
 
     /*  public  static String displayResult(double area, double circumference){
         DecimalFormat round = new DecimalFormat("#,###.00");
-        return "The area is: " + round.format(area) + "\nThe circumference is: " + round.format(circumference);
+        return  "The area is: " + round.format(area) + "\nThe circumference is: " + round.format(circumference);
     }
      */
     public static void outputResults(double area, double circumference){
