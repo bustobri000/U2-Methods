@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class SplitPs {
 
     /*
@@ -5,4 +7,13 @@ public class SplitPs {
 
     "Hippopotamus" -> ppop
      */
+    public static void main(String[] args) {
+        String word = JOptionPane.showInputDialog("Enter a word with the letter p: ");
+        JOptionPane.showMessageDialog(null, pPlusThree(word));
+    }
+    public static String pPlusThree(String word){
+        String lowerWord = word.toLowerCase();
+        int pIndex = lowerWord.indexOf('p');
+        return word.substring(pIndex, pIndex + 4);
+    }
 }
