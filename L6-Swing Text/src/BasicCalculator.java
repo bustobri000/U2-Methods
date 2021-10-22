@@ -25,7 +25,6 @@ public class BasicCalculator {
         inputNumber1 = new JTextField(10);
         inputNumber2 = new JTextField(10);
 
-
         JButton add = new JButton("Add");
         JButton subtract = new JButton("Subtract");
         JButton multiply = new JButton("multiply");
